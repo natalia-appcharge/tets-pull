@@ -14,5 +14,3 @@ jobs:
       - name: Build an image from Dockerfile
         run: |
           docker build -t cypress-test .
-
-
