@@ -17,4 +17,4 @@ jobs:
       - name: Build an image from Dockerfile
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          ls
+          cat dtdt.ttx
